@@ -1,0 +1,7 @@
+
+tpython:S1542"URename function "funChallenge" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ä áˆ8íµ¥´”.
+Ipython:S1481."%Remove the unused local variable "i".(ñð‹®úÿÿÿÿ8ÀìÉµ”.
+qpython:S3827"Manother_function is not defined. Change its name or define it before using it(—äìˆÿÿÿÿÿ8íµ¥´”.
+Ipython:S1481"%Remove the unused local variable "i".(·”Šèÿÿÿÿÿ8íµ¥´”.
+Kpython:S1481",Remove the unused local variable "stranger".(å±ŒÊ8Æè¥´”.
+jpython:S1854"FRemove this assignment to local variable 'a'; the value is never used.(æ¯¿ãûÿÿÿÿ8§³¦´”.
