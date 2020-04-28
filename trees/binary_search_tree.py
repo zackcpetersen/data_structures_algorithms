@@ -153,15 +153,23 @@ def traverse(node):
     return tree
 
 
-iterative_tree = BinaryTreeIterative()
-iterative_tree.insert(9)
-iterative_tree.insert(4)
-iterative_tree.insert(6)
-iterative_tree.insert(1)
-iterative_tree.insert(20)
-iterative_tree.insert(170)
-iterative_tree.insert(15)
-iterative_tree.insert(25)
-iterative_tree.remove(20)
+def build_tree(tree):
+    tree.insert(9)
+    tree.insert(4)
+    tree.insert(6)
+    tree.insert(1)
+    tree.insert(20)
+    tree.insert(170)
+    tree.insert(15)
+    tree.insert(25)
+    # tree.remove(20)
+    return tree
 
-traverse(iterative_tree.root)
+
+def traverse_tree(tree):
+    traverse(tree.root)
+
+
+iterative_tree = build_tree(BinaryTreeIterative())
+
+# traverse_tree(iterative_tree)
