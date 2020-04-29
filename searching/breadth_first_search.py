@@ -16,18 +16,18 @@ def breadth_first_search_iterative(tree):
     return array
 
 
-def breadth_first_search_recursive(queue, list):
+def breadth_first_search_recursive(queue, arr):
     if not len(queue):
-        return list
+        return arr
     current_node = queue.pop(0)
-    list.append(current_node.val)
+    arr.append(current_node.val)
 
     if current_node.left:
         queue.append(current_node.left)
     if current_node.right:
         queue.append(current_node.right)
 
-    return breadth_first_search_recursive(queue, list)
+    return breadth_first_search_recursive(queue, arr)
 
 
 breadth_first_result = [9, 4, 20, 1, 6, 15, 170, 25]
